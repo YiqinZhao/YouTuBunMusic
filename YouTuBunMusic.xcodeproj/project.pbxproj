@@ -7,25 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		705D492B24D3A298008BE036 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705D492A24D3A298008BE036 /* Tests_iOS.swift */; };
 		705D493624D3A298008BE036 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705D493524D3A298008BE036 /* Tests_macOS.swift */; };
-		705D493824D3A298008BE036 /* YouTuBunMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705D490F24D3A297008BE036 /* YouTuBunMusicApp.swift */; };
 		705D493924D3A298008BE036 /* YouTuBunMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705D490F24D3A297008BE036 /* YouTuBunMusicApp.swift */; };
-		705D493A24D3A298008BE036 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705D491024D3A297008BE036 /* ContentView.swift */; };
 		705D493B24D3A298008BE036 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705D491024D3A297008BE036 /* ContentView.swift */; };
-		705D493C24D3A298008BE036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705D491124D3A298008BE036 /* Assets.xcassets */; };
 		705D493D24D3A298008BE036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705D491124D3A298008BE036 /* Assets.xcassets */; };
-		7074D47A24D45E9500D7047E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7074D47924D45E9500D7047E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		705D492724D3A298008BE036 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 705D490A24D3A297008BE036 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 705D491524D3A298008BE036;
-			remoteInfo = "YouTuBunMusic (iOS)";
-		};
 		705D493224D3A298008BE036 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 705D490A24D3A297008BE036 /* Project object */;
@@ -39,14 +27,9 @@
 		705D490F24D3A297008BE036 /* YouTuBunMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTuBunMusicApp.swift; sourceTree = "<group>"; };
 		705D491024D3A297008BE036 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		705D491124D3A298008BE036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		705D491624D3A298008BE036 /* YouTuBunMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTuBunMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		705D491924D3A298008BE036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		705D491E24D3A298008BE036 /* YouTuBunMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTuBunMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		705D492024D3A298008BE036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		705D492124D3A298008BE036 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
-		705D492624D3A298008BE036 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		705D492A24D3A298008BE036 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		705D492C24D3A298008BE036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		705D493124D3A298008BE036 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		705D493524D3A298008BE036 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		705D493724D3A298008BE036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,21 +37,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		705D491324D3A298008BE036 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		705D491B24D3A298008BE036 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		705D492324D3A298008BE036 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -89,60 +58,31 @@
 			isa = PBXGroup;
 			children = (
 				7074D47924D45E9500D7047E /* README.md */,
-				705D490E24D3A297008BE036 /* Shared */,
-				705D491824D3A298008BE036 /* iOS */,
 				705D491F24D3A298008BE036 /* macOS */,
-				705D492924D3A298008BE036 /* Tests iOS */,
 				705D493424D3A298008BE036 /* Tests macOS */,
 				705D491724D3A298008BE036 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		705D490E24D3A297008BE036 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				705D490F24D3A297008BE036 /* YouTuBunMusicApp.swift */,
-				705D491024D3A297008BE036 /* ContentView.swift */,
-				705D491124D3A298008BE036 /* Assets.xcassets */,
-			);
-			path = Shared;
-			sourceTree = "<group>";
-		};
 		705D491724D3A298008BE036 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				705D491624D3A298008BE036 /* YouTuBunMusic.app */,
 				705D491E24D3A298008BE036 /* YouTuBunMusic.app */,
-				705D492624D3A298008BE036 /* Tests iOS.xctest */,
 				705D493124D3A298008BE036 /* Tests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		705D491824D3A298008BE036 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				705D491924D3A298008BE036 /* Info.plist */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
 		705D491F24D3A298008BE036 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				705D490F24D3A297008BE036 /* YouTuBunMusicApp.swift */,
+				705D491024D3A297008BE036 /* ContentView.swift */,
+				705D491124D3A298008BE036 /* Assets.xcassets */,
 				705D492024D3A298008BE036 /* Info.plist */,
 				705D492124D3A298008BE036 /* macOS.entitlements */,
 			);
 			path = macOS;
-			sourceTree = "<group>";
-		};
-		705D492924D3A298008BE036 /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				705D492A24D3A298008BE036 /* Tests_iOS.swift */,
-				705D492C24D3A298008BE036 /* Info.plist */,
-			);
-			path = "Tests iOS";
 			sourceTree = "<group>";
 		};
 		705D493424D3A298008BE036 /* Tests macOS */ = {
@@ -157,23 +97,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		705D491524D3A298008BE036 /* YouTuBunMusic (iOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 705D494024D3A298008BE036 /* Build configuration list for PBXNativeTarget "YouTuBunMusic (iOS)" */;
-			buildPhases = (
-				705D491224D3A298008BE036 /* Sources */,
-				705D491324D3A298008BE036 /* Frameworks */,
-				705D491424D3A298008BE036 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "YouTuBunMusic (iOS)";
-			productName = "YouTuBunMusic (iOS)";
-			productReference = 705D491624D3A298008BE036 /* YouTuBunMusic.app */;
-			productType = "com.apple.product-type.application";
-		};
 		705D491D24D3A298008BE036 /* YouTuBunMusic (macOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 705D494324D3A298008BE036 /* Build configuration list for PBXNativeTarget "YouTuBunMusic (macOS)" */;
@@ -190,24 +113,6 @@
 			productName = "YouTuBunMusic (macOS)";
 			productReference = 705D491E24D3A298008BE036 /* YouTuBunMusic.app */;
 			productType = "com.apple.product-type.application";
-		};
-		705D492524D3A298008BE036 /* Tests iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 705D494624D3A298008BE036 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
-			buildPhases = (
-				705D492224D3A298008BE036 /* Sources */,
-				705D492324D3A298008BE036 /* Frameworks */,
-				705D492424D3A298008BE036 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				705D492824D3A298008BE036 /* PBXTargetDependency */,
-			);
-			name = "Tests iOS";
-			productName = "Tests iOS";
-			productReference = 705D492624D3A298008BE036 /* Tests iOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		705D493024D3A298008BE036 /* Tests macOS */ = {
 			isa = PBXNativeTarget;
@@ -236,15 +141,8 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					705D491524D3A298008BE036 = {
-						CreatedOnToolsVersion = 12.0;
-					};
 					705D491D24D3A298008BE036 = {
 						CreatedOnToolsVersion = 12.0;
-					};
-					705D492524D3A298008BE036 = {
-						CreatedOnToolsVersion = 12.0;
-						TestTargetID = 705D491524D3A298008BE036;
 					};
 					705D493024D3A298008BE036 = {
 						CreatedOnToolsVersion = 12.0;
@@ -265,36 +163,18 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				705D491524D3A298008BE036 /* YouTuBunMusic (iOS) */,
 				705D491D24D3A298008BE036 /* YouTuBunMusic (macOS) */,
-				705D492524D3A298008BE036 /* Tests iOS */,
 				705D493024D3A298008BE036 /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		705D491424D3A298008BE036 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7074D47A24D45E9500D7047E /* README.md in Resources */,
-				705D493C24D3A298008BE036 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		705D491C24D3A298008BE036 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				705D493D24D3A298008BE036 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		705D492424D3A298008BE036 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,29 +188,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		705D491224D3A298008BE036 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				705D493A24D3A298008BE036 /* ContentView.swift in Sources */,
-				705D493824D3A298008BE036 /* YouTuBunMusicApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		705D491A24D3A298008BE036 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				705D493B24D3A298008BE036 /* ContentView.swift in Sources */,
 				705D493924D3A298008BE036 /* YouTuBunMusicApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		705D492224D3A298008BE036 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				705D492B24D3A298008BE036 /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,11 +208,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		705D492824D3A298008BE036 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 705D491524D3A298008BE036 /* YouTuBunMusic (iOS) */;
-			targetProxy = 705D492724D3A298008BE036 /* PBXContainerItemProxy */;
-		};
 		705D493324D3A298008BE036 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 705D491D24D3A298008BE036 /* YouTuBunMusic (macOS) */;
@@ -471,51 +329,6 @@
 			};
 			name = Release;
 		};
-		705D494124D3A298008BE036 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NB3BRUDL5P;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = yiqinzhao.YouTuBunMusic;
-				PRODUCT_NAME = YouTuBunMusic;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		705D494224D3A298008BE036 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NB3BRUDL5P;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = yiqinzhao.YouTuBunMusic;
-				PRODUCT_NAME = YouTuBunMusic;
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		705D494424D3A298008BE036 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -561,51 +374,6 @@
 				PRODUCT_NAME = YouTuBunMusic;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		705D494724D3A298008BE036 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NB3BRUDL5P;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yiqinzhao.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "YouTuBunMusic (iOS)";
-			};
-			name = Debug;
-		};
-		705D494824D3A298008BE036 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NB3BRUDL5P;
-				INFOPLIST_FILE = "Tests iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "yiqinzhao.Tests-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "YouTuBunMusic (iOS)";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -665,29 +433,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		705D494024D3A298008BE036 /* Build configuration list for PBXNativeTarget "YouTuBunMusic (iOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				705D494124D3A298008BE036 /* Debug */,
-				705D494224D3A298008BE036 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		705D494324D3A298008BE036 /* Build configuration list for PBXNativeTarget "YouTuBunMusic (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				705D494424D3A298008BE036 /* Debug */,
 				705D494524D3A298008BE036 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		705D494624D3A298008BE036 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				705D494724D3A298008BE036 /* Debug */,
-				705D494824D3A298008BE036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
