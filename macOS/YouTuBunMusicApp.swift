@@ -14,9 +14,10 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate {
     var isFullScreenClose: Bool = false
 
     func applicationDidFinishLaunching(_ notification: Notification) {
+        mainWindow = NSApplication.shared.windows[0]
+        
         mainWindow.titleVisibility = .hidden
         
-        mainWindow = NSApplication.shared.windows[0]
         mainWindow.isReleasedWhenClosed = false
         mainWindow.delegate = self
         let button = mainWindow.standardWindowButton(.closeButton)
