@@ -443,7 +443,7 @@
 				705D493F24D3A298008BE036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		705D494324D3A298008BE036 /* Build configuration list for PBXNativeTarget "YouTuBunMusic (macOS)" */ = {
 			isa = XCConfigurationList;
@@ -452,7 +452,7 @@
 				705D494524D3A298008BE036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		705D494924D3A298008BE036 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
 			isa = XCConfigurationList;
@@ -461,7 +461,7 @@
 				705D494B24D3A298008BE036 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
