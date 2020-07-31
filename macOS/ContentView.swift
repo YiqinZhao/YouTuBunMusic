@@ -38,7 +38,8 @@ struct ContentView: View {
              ScrollView {
                  SwiftWebView().frame(height: g.size.height)
              }.frame(height: g.size.height)
-         }
+        }
+        // .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
 }
 
