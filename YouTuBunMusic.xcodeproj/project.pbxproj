@@ -11,6 +11,7 @@
 		705D493924D3A298008BE036 /* YouTuBunMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705D490F24D3A297008BE036 /* YouTuBunMusicApp.swift */; };
 		705D493B24D3A298008BE036 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705D491024D3A297008BE036 /* ContentView.swift */; };
 		705D493D24D3A298008BE036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705D491124D3A298008BE036 /* Assets.xcassets */; };
+		7074D47E24D46CEE00D7047E /* YouTuBunWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074D47D24D46CEE00D7047E /* YouTuBunWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		705D493524D3A298008BE036 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		705D493724D3A298008BE036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7074D47924D45E9500D7047E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7074D47D24D46CEE00D7047E /* YouTuBunWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTuBunWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +78,9 @@
 		705D491F24D3A298008BE036 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				705D490F24D3A297008BE036 /* YouTuBunMusicApp.swift */,
+				7074D47C24D46B7400D7047E /* lib */,
 				705D491024D3A297008BE036 /* ContentView.swift */,
+				705D490F24D3A297008BE036 /* YouTuBunMusicApp.swift */,
 				705D491124D3A298008BE036 /* Assets.xcassets */,
 				705D492024D3A298008BE036 /* Info.plist */,
 				705D492124D3A298008BE036 /* macOS.entitlements */,
@@ -92,6 +95,14 @@
 				705D493724D3A298008BE036 /* Info.plist */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		7074D47C24D46B7400D7047E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				7074D47D24D46CEE00D7047E /* YouTuBunWebView.swift */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +205,7 @@
 			files = (
 				705D493B24D3A298008BE036 /* ContentView.swift in Sources */,
 				705D493924D3A298008BE036 /* YouTuBunMusicApp.swift in Sources */,
+				7074D47E24D46CEE00D7047E /* YouTuBunWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +349,7 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = B84MTH5WF4;
+				DEVELOPMENT_TEAM = NB3BRUDL5P;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
@@ -361,7 +373,7 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = B84MTH5WF4;
+				DEVELOPMENT_TEAM = NB3BRUDL5P;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
