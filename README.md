@@ -16,3 +16,9 @@ More cool features!
 
 - Apple Silicon ready
 - macOS 11.0 Big Sur ready
+
+## How to use?
+
+Download the [releases](https://github.com/YiqinZhao/YouTuBunMusic/releases).
+
+Or build from source with Xcode 12 on macOS 11.0 Big Sur.
