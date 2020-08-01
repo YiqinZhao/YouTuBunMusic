@@ -12,6 +12,7 @@
 		705D493B24D3A298008BE036 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705D491024D3A297008BE036 /* ContentView.swift */; };
 		705D493D24D3A298008BE036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705D491124D3A298008BE036 /* Assets.xcassets */; };
 		7074D47E24D46CEE00D7047E /* YouTuBunWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074D47D24D46CEE00D7047E /* YouTuBunWebView.swift */; };
+		7074D4BC24D5BF7A00D7047E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7074D4BB24D5BF7A00D7047E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		705D493724D3A298008BE036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7074D47924D45E9500D7047E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7074D47D24D46CEE00D7047E /* YouTuBunWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTuBunWebView.swift; sourceTree = "<group>"; };
+		7074D4BB24D5BF7A00D7047E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				7074D47C24D46B7400D7047E /* lib */,
 				705D491024D3A297008BE036 /* ContentView.swift */,
 				705D490F24D3A297008BE036 /* YouTuBunMusicApp.swift */,
+				7074D4BB24D5BF7A00D7047E /* Main.storyboard */,
 				705D491124D3A298008BE036 /* Assets.xcassets */,
 				705D492024D3A298008BE036 /* Info.plist */,
 				705D492124D3A298008BE036 /* macOS.entitlements */,
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				705D493D24D3A298008BE036 /* Assets.xcassets in Resources */,
+				7074D4BC24D5BF7A00D7047E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +361,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = yiqinzhao.YouTuBunMusic;
 				PRODUCT_NAME = YouTuBunMusic;
 				SDKROOT = macosx;
@@ -381,7 +385,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = yiqinzhao.YouTuBunMusic;
 				PRODUCT_NAME = YouTuBunMusic;
 				SDKROOT = macosx;
