@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		705D493624D3A298008BE036 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705D493524D3A298008BE036 /* Tests_macOS.swift */; };
-		705D493924D3A298008BE036 /* YouTuBunMusicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705D490F24D3A297008BE036 /* YouTuBunMusicApp.swift */; };
+		705D493924D3A298008BE036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705D490F24D3A297008BE036 /* AppDelegate.swift */; };
 		705D493B24D3A298008BE036 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705D491024D3A297008BE036 /* ContentView.swift */; };
 		705D493D24D3A298008BE036 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705D491124D3A298008BE036 /* Assets.xcassets */; };
 		7074D47E24D46CEE00D7047E /* YouTuBunWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7074D47D24D46CEE00D7047E /* YouTuBunWebView.swift */; };
@@ -26,7 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		705D490F24D3A297008BE036 /* YouTuBunMusicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTuBunMusicApp.swift; sourceTree = "<group>"; };
+		705D490F24D3A297008BE036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		705D491024D3A297008BE036 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		705D491124D3A298008BE036 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		705D491E24D3A298008BE036 /* YouTuBun Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YouTuBun Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,7 +82,7 @@
 			children = (
 				7074D47C24D46B7400D7047E /* lib */,
 				705D491024D3A297008BE036 /* ContentView.swift */,
-				705D490F24D3A297008BE036 /* YouTuBunMusicApp.swift */,
+				705D490F24D3A297008BE036 /* AppDelegate.swift */,
 				7074D4BB24D5BF7A00D7047E /* Main.storyboard */,
 				705D491124D3A298008BE036 /* Assets.xcassets */,
 				705D492024D3A298008BE036 /* Info.plist */,
@@ -208,7 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				705D493B24D3A298008BE036 /* ContentView.swift in Sources */,
-				705D493924D3A298008BE036 /* YouTuBunMusicApp.swift in Sources */,
+				705D493924D3A298008BE036 /* AppDelegate.swift in Sources */,
 				7074D47E24D46CEE00D7047E /* YouTuBunWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -337,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -351,7 +351,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = NB3BRUDL5P;
@@ -376,7 +376,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = NB3BRUDL5P;
