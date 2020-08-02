@@ -22,6 +22,7 @@ struct YouTuBunWebView: NSViewRepresentable {
 
     func makeNSView(context: Context) -> WKWebView {
         view.customUserAgent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15"
+        view.allowsBackForwardNavigationGestures = true
         view.load(request)
         return view
     }
