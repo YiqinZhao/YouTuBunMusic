@@ -9,57 +9,33 @@ import SwiftUI
 import AppKit
 
 @main
-class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate {
-    var mainWindow: NSWindow!
-    var isFullScreen: Bool = false
-    var isFullScreenClose: Bool = false
+class AppDelegate: NSObject, NSApplicationDelegate {
+    var window: NSWindow?
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         let contentView = ContentView()
         
         let screenReact = NSScreen.main?.frame
         
-        mainWindow = NSWindow(
+        window = NSWindow(
             contentRect: NSRect(x: 0, y: 0, width: screenReact!.width * 0.7, height: screenReact!.height * 0.7),
             styleMask: [.titled, .closable, .miniaturizable, .resizable, .fullSizeContentView],
             backing: .buffered, defer: false)
         
-        mainWindow.center()
+        window?.center()
         
-        mainWindow.titleVisibility = .hidden
+        window?.titleVisibility = .hidden
         
-        mainWindow.contentView = NSHostingView(rootView: contentView)
-        mainWindow.makeKeyAndOrderFront(nil)
-        
-        mainWindow.isReleasedWhenClosed = false
-        mainWindow.delegate = self
-        
-        let button = mainWindow.standardWindowButton(.closeButton)
-        button?.target = self
-        button?.action = #selector(closeMe(_:))
+        window?.contentView = NSHostingView(rootView: contentView)
+        window?.isReleasedWhenClosed = false
+        window?.makeKeyAndOrderFront(nil)
     }
 
-    @objc func closeMe(_ sender: NSButton) {
-        if isFullScreen {
-            isFullScreenClose = true
-            mainWindow.toggleFullScreen(nil)
-            return
+    func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool {
+        if !flag {
+            window?.makeKeyAndOrderFront(nil)
+            return true
         }
-        NSApp.hide(nil)
-    }
-
-    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
         return false
-    }
-
-    func windowDidEnterFullScreen(_ notification: Notification) {
-        isFullScreen = true
-    }
-
-    func windowDidExitFullScreen(_ notification: Notification) {
-        isFullScreen = false
-        if isFullScreenClose {
-            NSApp.hide(nil)
-        }
     }
 }
